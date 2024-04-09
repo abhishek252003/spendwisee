@@ -1,0 +1,43 @@
+.btn{
+    margin-left: 93%;
+    width: 100px;
+    height: 55px; 
+    border-radius: 20px;
+    font-size: 25px; 
+    background-color: white;
+    transition: all ease-in 0.5s;  
+}
+.btn:hover{
+    margin-left: 90%;
+    width: 100px;
+    height: 55px; 
+    border-radius: 20px;
+    font-size: 25px; 
+    background: black;
+    color: white;
+    transition: all ease-out 0.5s;
+}
+.wlcm{
+    margin-left: 82%;
+    margin-top: 60px;
+   display: inline-block;
+   position: absolute;
+   border: 1px solid black;
+   padding: 10px 10px;
+   /* width: ; */
+   color: white;
+   background-color:rgba(0, 0, 0, 0.668);
+    border-radius: 20px;
+    font-size: 25px; 
+    transition: all ease-in 0.5s;  
+
+}
+.btn2{
+    margin-left: 93%;
+    width: 100px;
+    height: 55px; 
+    border-radius: 20px;
+    font-size: 25px; 
+    
+    transition: all ease-in 0.5s;  
+}
