@@ -23,7 +23,7 @@ useEffect(()=>{
   },3000);
 },[])
 const {user , loginWithRedirect, isAuthenticated, logout} =useAuth0();
-// console.log("User: ", user);
+console.log("User: ", user);
 
 
   return (
