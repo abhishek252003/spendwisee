@@ -19,7 +19,7 @@ const App=()=> {
   const [playStatus, setPlayStatus]= useState(false);
 useEffect(()=>{
   setInterval(()=>{
-    setHeroCount((count)=>{return count===2?0:count+1})
+    setHeroCount((count)=>{return count===1?0:count})
   },3000);
 },[])
 const {user , loginWithRedirect, isAuthenticated, logout} =useAuth0();
